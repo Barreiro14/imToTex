@@ -1,7 +1,7 @@
 from output import init, writeIn, finish
 def main():
 	init()
-	writeIn("hola")
+	writeIn("\\fracc{a}{b}")
 	finish()
 	print("hasta ahora todo jevi")
 	#main function
