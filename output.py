@@ -4,7 +4,7 @@ we need a second one in order to not confuse Python.
 '''
 def init():
     output = open("output.tex", "a")
-    output.write("\\begin{equation*}\n")
+    output.write("\\begin{align*}\n")
 
 def writeIn(a):
     output = open("output.tex", "a")
@@ -12,7 +12,7 @@ def writeIn(a):
 
 def finish():
     output = open("output.tex", "a")
-    output.write("\\end{equation}")
+    output.write("\\end{align*}")
 
 
     

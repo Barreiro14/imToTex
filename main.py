@@ -1,7 +1,10 @@
+from valToTex import ValToTex
+from recognizer import Recognize
 from output import init, writeIn, finish
+
 def main():
 	init()
-	writeIn("\\fracc{a}{b}")
+	writeIn(ValToTex(Recognize("images/test.JPG")))
 	finish()
 	print("hasta ahora todo jevi")
 	#main function
