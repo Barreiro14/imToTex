@@ -4,7 +4,7 @@ from output import init, writeIn, finish
 
 def main():
 	init()
-	writeIn(ValToTex(Recognize("test.JPG")))
+	writeIn(ValToTex(Recognize("images/test.JPG")))
 	finish()
 	print("hasta ahora todo jevi")
 	#main function
